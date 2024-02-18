@@ -1,0 +1,42 @@
+body{
+    background-image: url("images/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 25% 4%;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.btn-answers{
+    padding-top: 25px;
+    margin: 10px;
+    width: 300px;
+    height: 100px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.wrong-answer {
+    background-color: red !important;
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.right-answer {
+    background-color: green !important;
+    opacity: 1;
+    transition: opacity .25s ease-in;
+    -moz-transition: opacity .25s ease-in;
+    -webkit-transition: opacity .25s ease-in;
+}
+
+.q-header{
+    font-weight: bold;
+}
+
+.hidden{
+    display: none;
+}
