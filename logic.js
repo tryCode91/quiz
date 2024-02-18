@@ -75,7 +75,7 @@ for(let i = 0; i < answersEvent.length; i++){
                     questionsContainer.innerHTML = "<h3> Congratulations bibi you made it!</h3>";
                     questionsContainer.innerHTML += "\n <h2>I Love you <3</h2>";
                     questionsContainer.innerHTML += "\n <h2>Mahal na Mahal kita<3</h2>";
-                    questionsContainer.innerHTML += "\n <img src='liseberg.jpg' />";
+                    questionsContainer.innerHTML += "\n <img src='images/liseberg.jpg' />";
 
                 }
                 
